@@ -1,0 +1,261 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+#first{
+    height: 100vh;
+    width: 100vw;
+    /* border: 5px solid black; */
+    background-image: url('./Assests/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  
+}
+#bgm{
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* background-image: url(./hero-bg.jpg); */
+}
+
+#nav{
+    width: 100vw;
+    height: 14vh;
+    /* border: 3px solid red; */
+    display: flex;
+}
+#one{
+      flex-basis: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Dancing Script", cursive;
+      font-size: 16px;
+      line-height: 24px;
+      /* border: 1px solid red; */
+      color: white;
+
+}
+#logo{
+    font-size: 33px;
+    font-weight: bold;
+    position: relative;
+    right: 80px;
+
+}
+#two{
+     flex-basis: 40%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 33px;
+     /* border: 1px soild red; */
+     color: white;
+     position: relative;
+     right: 30px;
+    
+}
+a{
+    text-decoration-line: none;
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+#three{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    /* border: 1px solid red; */
+    position: relative;
+    right: 38px;
+}
+#contact{
+  font-size: 14px;
+  color: white;
+}
+#cart{
+    font-size: 14px;
+    color: white;
+}
+#search{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+#btn{
+    height: 45px;
+    width: 160px;
+    border-radius: 25px;
+    background-color: #ffbe33;
+    color: white;
+    border: 1px solid #0C0C0C ;
+    font-size: 16px;
+ }
+h1{
+     color: white;
+     font-family: "Dancing Script", cursive;
+    font-size: 57px;
+    position: relative;
+    left: 80px; 
+    top: 49px; 
+
+}
+
+#para{
+     color: white;
+    position: relative;
+    top: 55px;
+    left: 80px; 
+    line-height: 25px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+
+} 
+ #order{
+    color: white;
+    background-color: #ffbe33;
+    position: relative;
+    top: 88px;
+    left: 80px;
+    height: 45px;
+    width: 170px;
+    border-radius: 25px;
+    border: 1px solid #0C0C0C;
+    font-size: 15px;
+ }
+#second{
+    width: 100vw;
+    height: 35vh;
+     /* border: 5px black solid;  */
+     margin-top: 100px;
+}
+
+#offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+
+}
+.offer_container{
+    height: 201px;
+    width: 550px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831;
+    border-radius: 7px;
+    
+}
+.offer_one{
+    flex-basis: 37%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.offer_two{
+    flex-basis: 63%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+
+}
+.offer_img{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #ffbe33;
+     overflow: hidden;
+
+}
+img:hover{
+    height: 160px;
+    width: 160px;
+  
+
+}
+.title{
+    font-family: "Dancing Script", cursive;
+     font-size: 20px;
+     line-height: 24px;
+     color: white;
+}
+.offer_percentage{
+    font-family: "Dancing Script", cursive;
+    
+    color: white;
+}
+#perse{
+    font-size:30px ;
+}
+sub{
+    font-size: 12px;
+    position: relative;
+    right: 8px;
+    bottom: 6px;
+    font-weight: normal;
+}
+.offer_btn{
+    background-color: #ffbe33;
+    border-radius: 25px;
+    color: white;
+      width: 140px;
+    height:38px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0C0C0C ;
+
+}
+h2{
+    font-family: "Dancing Script", cursive;
+    color: #0C0C0C;
+    font-size: 40px;
+    /* position: relative;
+    left: 500px; */
+    margin-top: 100px;
+}
+#offers{
+    font-size: 30px;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+
+}
+#our_menu{
+    font-size: 30px;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+}
+.food_sections{
+    
+}
